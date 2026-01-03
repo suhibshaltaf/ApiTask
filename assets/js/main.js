@@ -20,7 +20,7 @@ const displaydatacategory=async()=>{
                 ${category}
             </h5>
 
-            <a href=""
+            <a href="./category-products.html?category=${category}"
                class="btn btn-outline-info rounded-pill mt-auto">
                 Show Products
             </a>
