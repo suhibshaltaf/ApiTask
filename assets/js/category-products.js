@@ -35,9 +35,9 @@ const displayCategoryProducts = async () => {
                             $${product.price}
                         </span>
 
-                        <a href="product.html?id=${product.id}"
+                        <a href="product_details.html?id=${product.id}"
                            class="btn btn-outline-info rounded-pill mt-auto">
-                            View Product
+                            View details
                         </a>
 
                     </div>

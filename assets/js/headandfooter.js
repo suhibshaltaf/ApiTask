@@ -9,7 +9,7 @@ document.querySelector("nav").innerHTML=`<div class="container-fluid">
           <a class="nav-link active" aria-current="page" href="index.html">Show category</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="product.html">Show Products</a>
+          <a class="nav-link" href="product.html">Show All Products</a>
         </li>
        
         

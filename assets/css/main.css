@@ -31,3 +31,124 @@ display: flex;
     box-shadow: 0 14px 35px rgba(0, 0, 0, 0.15);
 }
 
+
+/* ===== Product Card ===== */
+.product-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+    margin-bottom: 40px;
+}
+
+/* ===== Images Section ===== */
+.image-section {
+    background: #f9f9f9;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+}
+
+.product-thumbnail {
+    width: 100%;
+    max-height: 400px;
+    object-fit: contain;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.product-images {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.product-images img {
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: transform 0.3s, border-color 0.3s;
+}
+
+.product-images img:hover {
+    transform: scale(1.1);
+}
+
+.product-images img.active {
+    border-color: #0dcaf0;
+}
+
+/* ===== Details Section ===== */
+.details-section h2 {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.details-section p {
+    color: #555;
+}
+
+.price-box {
+    font-size: 28px;
+    font-weight: 700;
+    color: #0dcaf0;
+    margin: 15px 0;
+}
+
+.meta {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.meta div {
+    background: #f1faff;
+    padding: 10px 15px;
+    border-radius: 10px;
+    text-align: center;
+    min-width: 100px;
+}
+
+.meta span:first-child {
+    display: block;
+    font-size: 12px;
+    color: #777;
+}
+
+/* ===== Info Grid ===== */
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.info-grid div {
+    background: #f8f9fa;
+    padding: 10px 12px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+/* ===== Tags ===== */
+.product-tags span {
+    margin: 3px 3px 3px 0;
+}
+
+/* ===== Reviews ===== */
+.product-reviews {
+    margin-top: 30px;
+}
+
+.product-reviews .review-card {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
